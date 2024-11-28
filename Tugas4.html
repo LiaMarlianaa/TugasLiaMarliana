@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Aplikasi Rekening Bank BRI</title>
+    <title>Disi oleh Bank</title>
+</head>
+<body>
+
+<h1>Formulir Aplikasi Rekening Perorangan (AR-01)</h1>
+
+<form>
+    <section>
+        <h2>Data Nasabah</h2>
+        <h3>Data Pribadi</h3>
+        <label>Nama Lengkap:</label>
+        <input type="text" name="nama_lengkap" required><br>
+
+        <label>Jenis Kelamin:</label>
+        <input type="radio" name="jenis_kelamin" value="Pria"> Pria
+        <input type="radio" name="jenis_kelamin" value="Wanita"> Wanita<br>
+
+        <label>Kewarganegaraan:</label>
+        <input type="radio" name="kewarganegaraan" value="WNI"> WNI
+        <input type="radio" name="kewarganegaraan" value="WNA"> WNA
+        <label>Negara:</label>
+        <input type="text" name="negara"><br>
+
+        <label>Tempat Lahir:</label>
+        <input type="text" name="tempat_lahir">
+        <label>Tanggal Lahir:</label>
+        <input type="date" name="tanggal_lahir"><br>
+
+        <label>Jenis Identitas:</label>
+        <input type="checkbox" name="identitas" value="KTP"> KTP
+        <input type="checkbox" name="identitas" value="SIM"> SIM
+        <input type="checkbox" name="identitas" value="Passport"> Passport
+        <input type="checkbox" name="identitas" value="KITAP/KITAS/KIMS"> KITAP/KITAS/KIMS<br>
+
+        <label>Nomor Identitas:</label>
+        <input type="text" name="nomor_identitas"><br>
+
+        <label>Status Perkawinan:</label>
+        <input type="radio" name="status_perkawinan" value="Lajang"> Lajang
+        <input type="radio" name="status_perkawinan" value="Kawin"> Kawin
+        <input type="radio" name="status_perkawinan" value="Janda/Duda"> Janda/Duda
+        <input type="radio" name="status_perkawinan" value="Tidak bersedia"> Tidak bersedia<br>
+    </section>
+
+    <section>
+        <h3>Data Pekerjaan</h3>
+        <label>Jenis Pekerjaan:</label>
+        <input type="checkbox" name="pekerjaan" value="PNS"> PNS
+        <input type="checkbox" name="pekerjaan" value="TNI/Polri"> TNI/Polri
+        <input type="checkbox" name="pekerjaan" value="Peg. Swasta"> Peg. Swasta
+        <input type="checkbox" name="pekerjaan" value="Peg. BUMN"> Peg. BUMN
+        <input type="checkbox" name="pekerjaan" value="Profesional"> Profesional
+        <input type="checkbox" name="pekerjaan" value="Wiraswasta"> Wiraswasta
+        <input type="checkbox" name="pekerjaan" value="Lainnya"> Lainnya<br>
+
+        <label>Nama Kantor/Tempat Bekerja:</label>
+        <input type="text" name="nama_kantor"><br>
+    </section>
+
+    <section>
+        <h3>Data Keuangan</h3>
+        <label>Penghasilan Nasabah per bulan:</label>
+        <input type="radio" name="penghasilan" value="s/d 5 Juta"> s/d 5 Juta
+        <input type="radio" name="penghasilan" value="5-10 Juta"> 5-10 Juta
+        <input type="radio" name="penghasilan" value="10-50 Juta"> 10-50 Juta
+        <input type="radio" name="penghasilan" value="50-100 Juta"> 50-100 Juta
+        <input type="radio" name="penghasilan" value="diatas 100 Juta"> di atas 100 Juta<br>
+    </section>
+
+    <input type="submit" value="Kirim">
+</form>
+
+</body>
+</html>
